@@ -30,6 +30,13 @@ function RegistrarPersona() {
     let genero = document.querySelector("#ddlgenero").value;
     let correo = document.querySelector("#txtcorreo").value;
     let telefono = document.querySelector("#txttelefono").value;
+    // let estado = document.querySelector("#txtestado").value;
+
+    // if(estado=="true"){
+    //     estadoBool=true;
+    // }else{
+    //     estadoBool=false;
+    // }
 
     let url = "http://localhost:3000/personas";
     let datos = {
